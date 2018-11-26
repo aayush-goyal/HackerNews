@@ -1,4 +1,156 @@
 <resources>
     <string name="app_name">HackerNews</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_app_info">App Info</string>
+    <string name="title_activity_main">Home</string>
+    <string name="app_logo_content_desc">Image for showing app logo</string>
+
+    <!-- Launcher Icon -->
+    <string name="logo_deriva">ImageView for holding Deriva logo.</string>
+
+    <!-- SignInActivity -->
+    <string name="sign_in_with_phone">Sign in with Phone</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="text_or">OR</string>
+    <string name="no_account">Don\'t have an account?</string>
+
+    <!-- EmailAuthActivity-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="button_sign_in_email_auth">Sign in</string>
+    <string name="email_signin_unsuccessful">Email or password you entered do not match our records.</string>
+
+    <!-- PhoneAuthActivity -->
+    <!-- PhoneNumberFragment -->
+    <string name="mobile_no">Mobile Number</string>
+    <string name="get_started">Let\'s Get Started</string>
+    <string name="enter_mob_no">Enter your mobile number</string>
+    <string name="dialpad_0">0</string>
+    <string name="dialpad_1">1</string>
+    <string name="dialpad_2">2</string>
+    <string name="dialpad_3">3</string>
+    <string name="dialpad_4">4</string>
+    <string name="dialpad_5">5</string>
+    <string name="dialpad_6">6</string>
+    <string name="dialpad_7">7</string>
+    <string name="dialpad_8">8</string>
+    <string name="dialpad_9">9</string>
+    <string name="dialpad_back">\u232b</string>
+    <string name="button_proceed_phone_number">PROCEED</string>
+    <!-- PhoneNumberVerificationFragment -->
+    <string name="phone_number_verification_display_text">Waiting to automatically detect an SMS sent to your mobile number</string>
+    <string name="otp">Enter 6-digit code sent to your phone</string>
+    <string name="no_otp">Didn\'t receive the code?</string>
+    <string name="resend_code">RESEND CODE</string>
+    <string name="button_verify_phone_number">VERIFY</string>
+
+    <!-- NewUserDetailsFillUpActivity -->
+    <string name="getting_started_1">Yay!</string>
+    <string name="getting_started_2">Just few details.<!-- and you\'ll be all set--></string>
+    <string name="fname">First Name</string>
+    <string name="mname">Middle Name</string>
+    <string name="lname">Last Name</string>
+    <string name="select_dob">Select your birthday!</string>
+    <string name="dob">DOB</string>
+    <string name="create_profile">Create Profile</string>
+
+    <!-- SignUpActivity -->
+    <string name="button_sign_up_with_email">Sign up with E-mail</string>
+    <string name="button_sign_up_with_phone">Sign up with Phone</string>
+    <string name="button_sign_up_with_google">Sign up with Google</string>
+    <string name="button_sign_up_with_facebook">Continue with Facebook</string>
+    <string name="button_sign_up_as_guest">Continue as a Guest</string>
+    <string name="have_an_account">Already have an account?</string>
+
+    <!-- EmailAuthActivity-->
+    <string name="button_sign_up_email_auth">Sign up</string>
+
+
+    <!-- PhoneAuthActivity -->
+    <!-- PhoneNumberFragment -->
+
+
+    <!-- PhoneNumberVerificationFragment -->
+
+    <!-- MainActivity -->
+    <!-- HomeFragment -->
+    <string name="fragment_home">Home</string>
+    <string name="recent">Recent Transactions</string>
+    <string name="favorites">Favorites</string>
+    <string name="pay_to">Pay To</string>
+    <string name="receive_from">Receive From</string>
+    <string name="no_transactions_content_desc">Icons for No Transactions</string>
+
+    <!-- TallyFragment -->
+    <string name="fragment_tally">Tally</string>
+    <string name="paid">Paid</string>
+    <string name="received">Received</string>
+    <string name="no_transactions">No Transactions</string>
+
+    <!-- FriendsFragment -->
+    <string name="fragment_friends">Friends</string>
+
+    <!-- ProfileFragment -->
+    <string name="fragment_profile">Profile</string>
+    <string name="general_info">General Details</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="balance">Balance</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="update_details">Update Details</string>
+    <string name="logout">Logout</string>
+    <string name="profile_header_content_desc">Header Image for user</string>
+    <string name="change_pwd_content_desc">Icon for Change Password</string>
+    <string name="update_details_content_desc">Icon for Update Details</string>
+    <string name="logout_content_desc">Icon for Logout</string>
+
+    <!-- UpdateDetailsActivity -->
+    <string name="activity_update_details">Update Details</string>
+    <string name="date_of_birth">Birthday!</string>
+
+    <!-- AddEditTransactionActivity -->
+    <string name="activity_add_transaction">Add Transaction</string>
+    <string name="activity_edit_transaction">Edit Transaction</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="amount">Amount</string>
+    <string name="date_picker_content_desc">Date Picker Image Button</string>
+
+    <string-array name="category">
+        <item>Food</item>
+        <item>Dues</item>
+        <item>Groceries</item>
+        <item>Money Lent</item>
+        <item>Shopping</item>
+        <item>Utilities</item>
+        <item>Travel</item>
+    </string-array>
+
+    <string-array name="paidOrReceived">
+        <item>Paid</item>
+        <item>Received</item>
+    </string-array>
+
+    <!-- DeleteConfirmationDialogFragment -->
+    <string name="delete_confirmation">Do you want to delete this transaction?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- About App Activity strings -->
+    <string name="copyright_details">\u00A9 Deriva</string>
+    <string name="version_number">Version 1.0.0</string>
+
+    <!-- Transaction strings -->
+    <string name="to">to</string>
+    <string name="from">from</string>
+    <string name="transaction_for">for</string>
+    <string name="on">on</string>
+    <string name="remarks">Remarks</string>
+    <string name="done"><b>Done</b></string>
+    <string name="edit"><b>Edit</b></string>
+    <string name="delete">Delete</string>
+
+    <!-- Currencies -->
+    <string name="indian_rupee">₹</string>
+    <string name="usd">$</string>
+
 </resources>

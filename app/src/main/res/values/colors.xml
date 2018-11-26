@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#ff7200</color>
+    <color name="colorPrimaryLight">#ffa341</color>
+    <color name="colorPrimaryDark">#c44200</color>
+    <color name="colorSecondary">#ffffff</color>
+    <color name="colorSecondaryLight">@color/colorSecondary</color>
+    <color name="colorSecondaryDark">#cccccc</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="textOnPrimary">#000000</color>
+    <color name="textOnSecondary">@color/textOnPrimary</color>
+
+    <color name="btn_sign_in_with_phone">#C20000</color>
+    <color name="btn_sign_in_with_google">#4285F4</color>
 </resources>
