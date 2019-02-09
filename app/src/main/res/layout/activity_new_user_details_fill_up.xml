@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUserDetailsFillUpActivity">
+
+    <TextView
+        android:id="@+id/tv_getting_started_1_activity_new_user_details_fill_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/getting_started_1"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_getting_started_2_activity_new_user_details_fill_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"/>
+
+    <TextView
+        android:id="@+id/tv_getting_started_2_activity_new_user_details_fill_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/getting_started_2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/wrapper_fname_activity_new_user_details_fill_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_getting_started_1_activity_new_user_details_fill_up"/>
+
+    <!-- First Name Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wrapper_fname_activity_new_user_details_fill_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/wrapper_mname_activity_new_user_details_fill_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_getting_started_2_activity_new_user_details_fill_up">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_user_fname_activity_new_user_details_fill_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fname"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Middle Name Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wrapper_mname_activity_new_user_details_fill_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/wrapper_lname_activity_new_user_details_fill_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_fname_activity_new_user_details_fill_up">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_user_mname_activity_new_user_details_fill_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mname"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Last Name Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wrapper_lname_activity_new_user_details_fill_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/wrapper_mobile_no_activity_new_user_details_fill_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_mname_activity_new_user_details_fill_up">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_user_lname_activity_new_user_details_fill_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lname"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Mobile Number Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wrapper_mobile_no_activity_new_user_details_fill_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/wrapper_email_activity_new_user_details_fill_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_lname_activity_new_user_details_fill_up">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_user_mobile_no_activity_new_user_details_fill_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobile_no"
+            android:inputType="phone"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Email Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wrapper_email_activity_new_user_details_fill_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/wrapper_dob_activity_new_user_details_fill_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_mobile_no_activity_new_user_details_fill_up">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_user_email_activity_new_user_details_fill_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Date of Birth field. -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wrapper_dob_activity_new_user_details_fill_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintEnd_toStartOf="@id/ib_user_dob_activity_new_user_details_fill_up"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_email_activity_new_user_details_fill_up">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_dob_activity_new_user_details_fill_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/date_of_birth"
+            android:inputType="date"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Image Button for showing date picker to the user. -->
+    <ImageButton
+        android:id="@+id/ib_user_dob_activity_new_user_details_fill_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:contentDescription="@string/date_picker_content_desc"
+        android:src="@mipmap/ic_date_range_white_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/wrapper_dob_activity_new_user_details_fill_up"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_email_activity_new_user_details_fill_up"/>
+
+    <Spinner
+        android:id="@+id/spinner_country_activity_new_user_details_fill_up"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:prompt="@string/select_country"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wrapper_dob_activity_new_user_details_fill_up"/>
+
+    <Button
+        android:id="@+id/button_create_profile_activity_new_user_details_fill_up"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/SignInButton"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/create_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

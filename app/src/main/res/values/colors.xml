@@ -3,12 +3,14 @@
     <color name="colorPrimary">#ff7200</color>
     <color name="colorPrimaryLight">#ffa341</color>
     <color name="colorPrimaryDark">#c44200</color>
-    <color name="colorSecondary">#ffffff</color>
-    <color name="colorSecondaryLight">@color/colorSecondary</color>
+    <color name="colorSecondary">#000000</color>
+    <color name="colorSecondaryLight">#2c2c2c</color>
     <color name="colorSecondaryDark">#cccccc</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="textOnPrimary">#000000</color>
+    <color name="colorAccent">#cc533e</color>
+    <color name="textOnPrimary">@color/colorSecondary</color>>
     <color name="textOnSecondary">@color/textOnPrimary</color>
+
+    <color name="white">#ffffff</color>
 
     <color name="btn_sign_in_with_phone">#C20000</color>
     <color name="btn_sign_in_with_google">#4285F4</color>
